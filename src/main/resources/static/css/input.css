@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.deletable {
+	@apply opacity-50 blur-sm cursor-none *:cursor-none transition-all duration-100;
+}
